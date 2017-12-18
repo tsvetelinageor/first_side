@@ -1,0 +1,21 @@
+body,div, p, main, header, li, ul, footer, img, h1, h3, label, form, input
+{
+	margin: 0;
+	padding: 0
+}
+#wrapper{
+	background-color: #f2f2f2; 
+	width: 70%;
+	height: 800px;
+	margin: auto;
+	position: relative;
+	border-left: 9px solid #666;
+	border-right: 9px solid #666
+}
+#home-p{
+	margin-top: 500px
+}
+p{
+	width: 50%;
+	padding: 25px
+}

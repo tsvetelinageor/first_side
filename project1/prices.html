@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="bg-BG">
+<head>
+	<meta charset="UTF-8">
+	<title>Цени</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<a href="home.html">
+				<img src="img/logo.png" alt="fsk">
+			</a>
+		<div id="container">
+			<ul id="ul">
+				<li class="li"> 
+					<a href="home.html" class="a" id="a">Начало</a>
+				</li>
+				<li class="li"> 
+					<a href="services.html" class="a">Услуги</a>
+					<ul id="pod">
+						<li class="pod" id="pod1" >
+							<a href="sch_otchetnost.html" class="a">Счетоводна отчетност</a>
+						</li>
+						<li class="pod" id="pod2">
+							<a href="trz.html" class="a">ТРЗ и администрация</a>
+						</li>
+						<li class="pod" id="pod3">
+							<a href="finansi.html" class="a">Финансов анализ и банково посредничество</a>
+						</li>
+					</ul>
+				</li>
+				<li style="background-color: #ccc" class="li"> 
+					<a href="prices.html" class="a"> Цени</a>
+				</li>
+				<li class="li"> 
+					<a href="aboutus.html" class="a"> За нас</a>
+				</li>
+				<li class="li"> 
+					<a href="contacts.html" class="a"> За контакти</a>
+				</li>
+			</ul>
+		</div>
+		</header>
+		<main>
+			<p>
+				Разчитайте на нашата дискретност! До Вашите данни ще има достъп единствено управленския екип на „ФСК Ко & Ко Консулт” ЕООД. Информацията е поверителна! Всички полета са задължителни!
+			</p>
+			<form>
+				<p class="form">
+					Наименование на фирмата:
+					<label for="name">
+						<input type="text" name="name" value="" id="name">
+					</label>
+				</p>
+				<p class="form">
+					Дейност на фирмата:
+					<label for="deinost"> 
+						<input type="text" name="deinost" value="" id="deinost">
+					</label>
+				</p>
+				<p class="form">
+					Статут на фирмата:
+					<select name="statut">
+						<option value="">---</option>
+						<option value="1">ЕД</option>
+						<option value="2">АД</option>
+						<option value="3">СД</option>
+						<option value="4">ООД</option>
+						<option value="5">ЕООД</option>
+					</select>
+				</p>
+				<p class="form">
+					Чуждестранно участие:
+					<label>
+						<span class="form">Да</span>
+						<input type="radio" name="ychastie" value="">
+					</label>
+					<label>
+						<span class="form">Не</span>
+						<input type="radio" name="ychastie" value="">
+					</label>
+				</p>
+				<p class="form">
+					Износна дейност:
+					<label>
+						<span class="form">Да</span>
+						<input type="radio" name="iz-deinost" value="">
+					</label>
+					<label>
+						<span class="form">Не</span>
+						<input type="radio" name="iz-deinost" value="">
+					</label>
+				</p>
+				<p class="form">
+					Вносна дейност:
+					<label>
+						<span class="form">Да</span>
+						<input type="radio" name="vn-deinost" value="">
+					</label>
+					<label>
+						<span class="form">Не</span>
+						<input type="radio" name="vn-deinost" value="">
+					</label>
+				</p>
+				<p class="form">
+					Брой сметки в ЛВ:
+					<label for="broi">
+						<input type="number" name="broi" value="" id="broi"> 
+					</label>
+				</p>
+				<p class="form">
+					Брой сметки валута:
+					<label for="br-smetki">						
+						<input type="number" name="br-smetki" value="" id="br-smetki"> 
+					</label>
+				</p>
+				<p class="form">
+					Брой обекти:
+					<label for="br-obekti">						
+						<input type="number" name="br-obekti" value="" id="br-obekti">
+					</label>
+				</p>
+				<p class="form">
+					Брой личен състав:
+					<label for="br-sustav">						
+						<input type="number" name="br-sustav" value="" id="br-sustav">
+					</label>
+				</p>
+				<p class="form">					
+						Регистрация по ДДС:
+					<label for="yes">
+						<span class="form">Да</span>
+						<input type="radio" name="dds" value="" id="yes">
+					</label>
+					<label for="no">
+						<span class="form">Не</span>
+						<input type="radio" name="dds" value="" id="no">
+					</label>
+				</p>
+				<p class="form">
+					Средномесечен брой на записите в дневниците по ДДС
+				</p>
+				<p class="form">
+					Дневник на покупките:
+					<label for="dn-pok">						
+						<input type="number" name="dn-pok" value="" id="dn-pok">
+					</label>
+				</p>
+				<p class="form">
+					Дневник продажби:
+					<label for="dn-pro">						
+						<input type="number" name="dn-pro" value="" id="dn-pro">
+					</label>
+				</p>
+				<p class="form">
+					Лице за контакти:
+					<label for="contact">						
+						<input type="text" name="contact" value="" id="contact">
+					</label>
+				</p>
+				<p class="form">
+					Телефон за контакти:
+					<label for="phone">						
+						<input type="number" name="phone" value="" id="phone">
+					</label>
+				</p>
+				<p class="form">
+					E-mail:
+					<label for="email">							
+						 <input type="email" name="email" value=""  id="email">
+					</label>
+				</p>
+				<p class="form">
+					<input type="submit" name="submit" value="Изпрати">
+				</p>
+			</form>
+			<div id="cena">
+				<h3>Цени</h3>
+				<p id="cena-p">
+					Цената на месечното счетоводно-административно обслужване се определя в зависимост от параметрите на извършваната от Вас дейност. За да предложим такава е необходимо да получим приблизителна информация по конкретни показатели, изброени в предложена от нас анкетна карта.
+				</p>
+			</div>
+			<img src="img/ceni.png" alt="ceni" id="ceni">
+			<img src="img/price.jpeg" alt="prices" id="prices">
+		</main>
+		<footer>
+			<div id="footer">
+				Финансово счетоводна къща "Ко и Ко Консулт" ЕООД 2002-2017 
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
